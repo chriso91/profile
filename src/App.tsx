@@ -5,7 +5,7 @@ import {FC} from "react";
 const App:FC = () => {
   return (
     <>
-      <h1>Good to go!</h1>
+      <h1>Good to go</h1>
       <FeatureOne/>
     </>
   )
