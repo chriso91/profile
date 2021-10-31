@@ -27,6 +27,18 @@ const config: Configuration = {
           },
         },
       },
+      {
+         test: /\.s[ac]ss$/,
+         use: [
+           // Creates `style` nodes from JS strings
+           { loader: "style-loader" },
+           { loader: "css-modules-typescript-loader"},
+           // Translates CSS into CommonJS
+           { loader: "css-loader", options: { modules: true } },
+           // Compiles Sass to CSS
+           { loader: "sass-loader" },
+         ],
+       },
     ],
   },
   resolve: {
