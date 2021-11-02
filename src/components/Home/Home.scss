@@ -1,0 +1,13 @@
+.home {
+  overflow: hidden;
+  position: relative;
+}
+
+.blueBlock {
+  background-color: #00A786;
+  position: absolute;
+  margin: -20px;
+  width: 150vw;
+  height: 100vh;
+  transform: rotate(8deg)translate(-100px, -100px);
+}

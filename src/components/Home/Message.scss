@@ -5,8 +5,14 @@
   border-bottom: 1px solid black;
   text-align: center;
   width: 50vw;
-  margin: 0 auto;
+  margin: 50px auto;
   margin-top: 150px;
   z-index: 5;
   position: relative;
+}
+
+@media only screen and (max-width: 773px) {
+  .message {
+    margin-top: 50px;
+  }
 }

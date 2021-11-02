@@ -1,3 +1,9 @@
+.header {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -5,16 +11,6 @@
   position: relative;
   width: 100%;
   flex-flow: row wrap;
-}
-
-.blueBlock {
-  background-color: #00A786;
-  position: absolute;
-  margin: -20px;
-  width: 150vw;
-  height: 100vh;
-  overflow: hidden;
-  transform: rotate(8deg)translate(-100px, -100px);
 }
 
 .text {
@@ -33,6 +29,10 @@
 .pic {
   margin: 50px;
   flex: 0;
+  .myPicture {
+    border-radius: 50%;
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 773px) {

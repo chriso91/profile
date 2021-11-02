@@ -1,13 +1,10 @@
 import * as React from "react";
-import MyPicture from './components/Header/Header';
-import Message from './components/Message/Message';
-import {FC} from "react";
+import Home from './components/Home/Home';
 
-const App:FC = () => {
+const App:React.FC = () => {
   return (
     <>
-      <MyPicture />
-      <Message />
+      <Home />
     </>
   )
 };
