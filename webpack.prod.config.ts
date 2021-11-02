@@ -38,6 +38,14 @@ const config: Configuration = {
            { loader: "sass-loader" },
          ],
        },
+       {
+          test: /\.(png|jpg|gif)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+            },
+          ],
+       },
     ],
   },
   resolve: {
