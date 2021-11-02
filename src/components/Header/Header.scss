@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  flex-flow: row wrap;
+}
+
+.blueBlock {
+  background-color: #00A786;
+  position: absolute;
+  margin: -20px;
+  width: 150vw;
+  height: 100vh;
+  overflow: hidden;
+  transform: rotate(8deg)translate(-100px, -100px);
+}
+
+.text {
+  color: black;
+  width: 40%;
+  margin: 40px;
+  font-family: 'futura';
+  float: left;
+  max-width: 800px;
+  h1 {
+    font-size: 60px;
+  }
+  flex: 8;
+}
+
+.pic {
+  margin: 50px;
+  flex: 0;
+}
+
+@media only screen and (max-width: 773px) {
+  .text {
+    text-align: center;
+  }
+  .pic {
+    text-align: center;
+    flex: 1;
+  }
+}
